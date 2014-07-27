@@ -1,0 +1,61 @@
+@CHARSET "US-ASCII";
+
+body {
+   background-image: url('images/large.png');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: 65% 60%; 
+}
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+.container {
+    width: 250px;
+    margin: 0 auto 0 auto;
+    font-family: 'Noto Serif', serif;
+    font-size: 10pt;
+    color: #3D3D3D;
+    padding: 30px;
+    background: #ffffff;
+    opacity: 0.7;
+    filter: alpha(opacity=70); /* For IE8 and earlier */
+    
+}
+
+.container h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 28pt;
+    font-variant: small-caps;
+    color: #373838;
+    border-bottom: 1px solid #2F5C6E;
+}
+
+a {
+   color: #1A6E8F;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #3D3D3D;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #2F5C6E;
+}
+
+a:active {
+    text-decoration: underline;
+}
