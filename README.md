@@ -1,2 +1,2 @@
-dns23.github.io
-===============
+# My Website
+My website is located at http://www.deanosutton.com/. Happy reading...
